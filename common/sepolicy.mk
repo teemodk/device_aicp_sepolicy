@@ -3,5 +3,8 @@
 # inherit from AICP
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/aicp/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/aicp/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/aicp/sepolicy/common/private
