@@ -10,4 +10,4 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/aicp/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-   device/aicp/sepolicy/common/vendor
+    device/aicp/sepolicy/common/vendor
