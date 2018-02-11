@@ -5,5 +5,8 @@ set_prop(system_server, qemu_hw_mainkeys_prop)
 # Allow LineageHW (running as system server) to access LiveDisplay tuneables
 allow system_server sysfs_livedisplay_tuneable:file rw_file_perms;
 
+# Pocket judge
+allow system_server pocket_service:service_manager { add find };
+
 # Use HALs
 hal_client_domain(system_server, hal_lineage_livedisplay)
