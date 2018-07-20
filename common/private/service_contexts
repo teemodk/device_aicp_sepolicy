@@ -1,3 +1,4 @@
+edgegestureservice                        u:object_r:edgegesture_service:s0
 lineageaudio                              u:object_r:lineage_audio_service:s0
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
