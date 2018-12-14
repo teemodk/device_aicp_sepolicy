@@ -1,1 +1,2 @@
 ro.sf.lcd_density             u:object_r:sf_lcd_density_prop:s0
+qemu.hw.mainkeys           u:object_r:qemu_hw_mainkeys_prop:s0
